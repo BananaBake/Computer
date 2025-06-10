@@ -1,5 +1,5 @@
 {
-    "name": "Windows App Support with XFCE, VNC, and NoVNC",
+    "name": "Windows App Support with XFCE, VNC, and NoVNC. Plus pre-installed Firefox and keyboard",
     "build": {
         "dockerfile": "Dockerfile",
         "context": ".."
