@@ -14,7 +14,7 @@ A ready-to-use development environment featuring:
 
 1. **Create a new Codespace** on this repo with one click:
 
-   [![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=999234424&machine=standardLinux4&ref=main)
+   [![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=999234424&machine=standardLinux32gb&ref=main)
    > **Note:** For optimal performance, the one-click Codespaces button above automatically selects a 4 CPU machine.
 
 3. **Alternatively, clone this repository and open it in a Dev Container-compatible environment**  
