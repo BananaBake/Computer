@@ -4,11 +4,19 @@
         "dockerfile": "Dockerfile",
         "context": ".."
     },
+    "customizations": {
+        "vscode": {
+            "extensions": [],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    },
     "remoteUser": "root",
     "forwardPorts": [6080, 5901],
     "portsAttributes": {
         "6080": {
-            "label": "NoVNC Web Client",
+            "label": "NoVNC Web Client"
         }
     }
 }
