@@ -16,7 +16,11 @@
     "forwardPorts": [6080, 5901],
     "portsAttributes": {
         "6080": {
-            "label": "NoVNC Web Client"
+            "label": "Desktop output (NoVNC)"
+        },
+        "5901": {
+            "label": "VNC server"
         }
-    }
+    },
+    "postStartCommand": "/usr/local/bin/entrypoint.sh"
 }
