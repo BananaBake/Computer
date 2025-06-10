@@ -4,25 +4,11 @@
         "dockerfile": "Dockerfile",
         "context": ".."
     },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-vscode.remote-explorer",
-                "ms-vscode.remote-ssh",
-                "ms-vscode.remote-containers",
-                "ms-vscode.remote-wsl"
-            ],
-            "settings": {
-                "terminal.integrated.defaultProfile.linux": "bash"
-            }
-        }
-    },
     "remoteUser": "root",
-    "postCreateCommand": "bash /usr/local/bin/start-vnc-novnc.sh",
+    "forwardPorts": [6080, 5901],
     "portsAttributes": {
         "6080": {
             "label": "NoVNC Web Client",
-            "onAutoForward": "openBrowser"
         }
     }
 }
