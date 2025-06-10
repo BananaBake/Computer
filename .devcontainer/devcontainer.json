@@ -1,5 +1,5 @@
 {
-    "name": "Windows App Support with XFCE, VNC, and NoVNC. Plus pre-installed Firefox and keyboard",
+    "name": "Desktop computer setup (with VNC, some basic apps, and Windows support)",
     "build": {
         "dockerfile": "Dockerfile",
         "context": ".."
